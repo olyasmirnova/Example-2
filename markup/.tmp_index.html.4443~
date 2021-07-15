@@ -1,277 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0 " />
-	<title>Layout 2</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-	<link media="all" rel="stylesheet" href="bootstrap/bootstrap.min.css" />
-	<link media="all" rel="stylesheet" href="css/all.css" />
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')</script>
-	<script type="text/javascript" src="js/jquery.main.js" ></script>
-</head>
-<body>
-	<div id="wrapper">
-		<header id="header">
-			<div class="container">
-				<strong class="logo"><a href="#">Layout 2</a></strong>
-				<nav id="nav"> 
-					<ul>
-						<li><a href="#about">About</a></li>
-						<li><a href="#services">Services</a></li>
-						<li><a href="#works">our works</a></li>
-						<li><a href="#contact">contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<div id="main">
-			<section class="visual">
-				<a href="#" class="btn-prev"><i class="fa fa-chevron-left"></i></a>
-				<a href="#" class="btn-next"><i class="fa fa-chevron-right"></i></a>
-				<div class="frame">					<div class="slideset">
-						<div class="slide">							<img class="bg" src="images/img01.jpg" alt="image description">							<div class="text-holder">
-								<div class="holder">
-									<div class="container">
-										<div class="row">
-											<div class="col-xs-12 col-md-8 col-md-offset-2">												<h1>Lorem ipsum dolor</h1>												<p>Aenean id ligula aliquam dolor tristique fringilla</p>												<a href="#" class="btn">Start now</a>
-											</div>
-										</div>
-									</div>
-								</div>							</div>						</div>
-						<div class="slide">
-							<img class="bg" src="images/img02.jpg" alt="image description">
-							<div class="text-holder">
-								<div class="holder">
-									<div class="container">
-										<div class="row">
-											<div class="col-xs-12 col-md-8 col-md-offset-2">
-												<h1>Lorem ipsum dolor</h1>
-												<p>Suspendisse potenti. Cras cursus ex nulla, ac faucibus leo suscipit in. Nulla maximus pellentesque sapien, et tincidunt nisl malesuada feugiat.Aenean id ligula aliquam dolor tristiquea</p>
-												<a href="#" class="btn">Start now</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="slide">
-							<img class="bg" src="images/img01.jpg" alt="image description">
-							<div class="text-holder">
-								<div class="holder">
-									<div class="container">
-										<div class="row">
-											<div class="col-xs-12 col-md-8 col-md-offset-2">
-												<h1>Lorem ipsum dolor Lorem</h1>
-												<p>Aenean id ligula aliquam dolor tristique fringilla</p>
-												<a href="#" class="btn">Start now</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>				</div>
-			</section>
-			<section id="about" class="info-holder">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12">
-							<div class="text-holder">
-								<strong class="title">Donec tristique rutrum</strong>
-								<h1>About company</h1>								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis dui non nulla fermentum sollicitudin. Nunc dictum finibus dui, in ornare lectus venenatis eget. Sed mollis tellus auctor lorem congue, in tincidunt leo pharetra. Nulla facilisi. Mauris sed justo consequat, pretium sem in, tempor sapien. Vestibulum maximus leo fermentum risus vehicula, nec blandit risus tincidunt. Nulla elementum congue turpis. Aenean id ligula aliquam dolor tristique fringilla. Aenean vel faucibus leo, ac iaculis sem. Suspendisse in erat id leo ultricies euismod eget et ex. Praesent tempus magna justo, a ultrices sem molestie non. Phasellus id mi quis dolor sollicitudin condimentum. Maecenas blandit leo nulla, a convallis ex laoreet vel. Maecenas iaculis massa placerat leo rutrum, et luctus diam sollicitudin. Cras nisl orci, ullamcorper non nisi eu, ultricies facilisis purus.</p>								<p>Suspendisse potenti. Cras cursus ex nulla, ac faucibus leo suscipit in. Nulla maximus pellentesque sapien, et tincidunt nisl malesuada feugiat. Cras ac tortor hendrerit, tristique elit sed, placerat justo. Mauris sit amet malesuada nisl, vel tincidunt eros. Cras eget tempus nibh. Mauris rutrum risus at enim sollicitudin, sed posuere lectus suscipit. Morbi velit felis, viverra et quam ut, tincidunt cursus nisl. Phasellus tincidunt, ex bibendum viverra bibendum, mi nisi ultrices elit, laoreet faucibus massa est a massa.</p>							</div>
-							<a href="#" class="btn">Read more</a>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="services" class="services-holder">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12">
-							<strong class="title">Lorem ipsum</strong>
-							<h1>Our services</h1>
-						</div>
-					</div>					<div class="row">						<div class="col-xs-12 col-md-4">
-							<div class="service-item">
-								<span class="ico"><i class="fa fa-users fa-3x" aria-hidden="true"></i></span>
-								<article class="text-box">
-									<h1>Some Service</h1>									<p>Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque</p>
-								</article>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-4">
-							<div class="service-item">
-								<span class="ico"><i class="fa fa-comments fa-3x" aria-hidden="true"></i></span>
-								<article class="text-box">
-									<h1>Some Service</h1>
-									<p>Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque</p>
-								</article>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-4">
-							<div class="service-item">
-								<span class="ico"><i class="fa fa-trophy fa-3x" aria-hidden="true"></i></span>
-								<article class="text-box">
-									<h1>Some Service</h1>
-									<p>Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque</p>
-								</article>
-							</div>
-						</div>					</div>
-					<div class="row">
-						<div class="col-xs-12 col-md-4">
-							<div class="service-item">
-								<span class="ico"><i class="fa fa-star fa-3x" aria-hidden="true"></i></span>
-								<article class="text-box">
-									<h1>Some Service</h1>
-									<p>Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque</p>
-								</article>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-4">
-							<div class="service-item">
-								<span class="ico"><i class="fa fa-plane fa-3x" aria-hidden="true"></i></span>
-								<article class="text-box">
-									<h1>Some Service</h1>
-									<p>Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque</p>
-								</article>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-4">
-							<div class="service-item">
-								<span class="ico"><i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i></span>
-								<article class="text-box">
-									<h1>Some Service</h1>
-									<p>Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque</p>
-								</article>
-							</div>
-						</div>
-					</div>				</div>
-			</section>
-			<section class="subscribe-holder">
-				<div class="container">					<div class="row">						<div class="col-xs-12 col-md-8">
-							<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h1>							<p>Cras ac tortor hendrerit, tristique elit sed, placerat justo.</p>
-						</div>
-						<div class="col-xs-12 col-md-3 col-md-offset-1">
-							<a href="#" class="btn">Subscribe now</a>
-						</div>					</div>				</div>
-			</section>
-			<section id="works" class="example-holder">
-				<div class="container">					<div class="row">
-						<div class="col-xs-12">
-							<strong class="title">Morbi rhoncus</strong>
-							<h1>Our works</h1>
-						</div>
-					</div>
-					<div class="row">						<div class="col-xs-12 col-md-4">							<div class="example-box">								<img src="images/img03.jpg" alt="image description">								<div class="hover">
-									<a href="#" class="view"><i class="fa fa-external-link fa-2x" aria-hidden="true"></i></a>
-									<div class="description-box">
-										<strong class="title"><a href="#">Ut pretium leo vel</a></strong>
-										<p>Category</p>
-									</div>
-								</div>							</div>						</div>
-						<div class="col-xs-12 col-md-4">
-							<div class="example-box">
-								<img src="images/img04.jpg" alt="image description">
-								<div class="hover">
-									<a href="#" class="view"><i class="fa fa-external-link fa-2x" aria-hidden="true"></i></a>
-									<div class="description-box">
-										<strong class="title"><a href="#">Ut pretium leo vel</a></strong>
-										<p>Category</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-4">
-							<div class="example-box">
-								<img src="images/img05.jpg" alt="image description">
-								<div class="hover">
-									<a href="#" class="view"><i class="fa fa-external-link fa-2x" aria-hidden="true"></i></a>
-									<div class="description-box">
-										<strong class="title"><a href="#">Ut pretium leo vel</a></strong>
-										<p>Category</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-12 col-md-4">
-							<div class="example-box">
-								<img src="images/img06.jpg" alt="image description">
-								<div class="hover">
-									<a href="#" class="view"><i class="fa fa-external-link fa-2x" aria-hidden="true"></i></a>
-									<div class="description-box">
-										<strong class="title"><a href="#">Ut pretium leo vel</a></strong>
-										<p>Category</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-4">
-							<div class="example-box">
-								<img src="images/img07.jpg" alt="image description">
-								<div class="hover">
-									<a href="#" class="view"><i class="fa fa-external-link fa-2x" aria-hidden="true"></i></a>
-									<div class="description-box">
-										<strong class="title"><a href="#">Ut pretium leo vel</a></strong>
-										<p>Category</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-4">
-							<div class="example-box">
-								<img src="images/img08.jpg" alt="image description">
-								<div class="hover">
-									<a href="#" class="view"><i class="fa fa-external-link fa-2x" aria-hidden="true"></i></a>
-									<div class="description-box">
-										<strong class="title"><a href="#">Ut pretium leo vel</a></strong>
-										<p>Category</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>				</div>
-			</section>
-			<section id="contact" class="contact-holder">				<div class="container">					<div class="row">
-						<div class="col-xs-12 col-md-3">
-							<strong class="title">tristique</strong>
-							<h1>Contact</h1>
-						</div>
-						<div class="col-xs-12 col-md-3">
-							<span class="ico"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></span>
-							<address>2619 Old Fort Rd<br> Fort Washington, PA 19034</address>
-						</div>
-						<div class="col-xs-12 col-md-3">
-							<span class="ico"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></span>
-							<span class="contact">610-516-0418</span>
-						</div>
-						<div class="col-xs-12 col-md-3">
-							<span class="ico"><i class="fa fa-at fa-2x" aria-hidden="true"></i></span>
-							<a class="mail" href="mailto:&#108;&#097;&#121;&#111;&#117;&#116;&#046;&#048;&#050;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#108;&#097;&#121;&#111;&#117;&#116;&#046;&#048;&#050;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>
-						</div>
-					</div>				</div>			</section>
-			<div class="map">
-				<img src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyBKOaWwTqhWXNQCQaJBTY3WdtcCnBXsB4I&center=-33.9,151.14999999999998&zoom=12&format=png&maptype=roadmap&style=element:geometry%7Ccolor:0x212121&style=element:labels.icon%7Cvisibility:off&style=element:labels.text.fill%7Ccolor:0x757575&style=element:labels.text.stroke%7Ccolor:0x212121&style=feature:administrative%7Celement:geometry%7Ccolor:0x757575&style=feature:administrative.country%7Celement:labels.text.fill%7Ccolor:0x9e9e9e&style=feature:administrative.land_parcel%7Cvisibility:off&style=feature:administrative.locality%7Celement:labels.text.fill%7Ccolor:0xbdbdbd&style=feature:poi%7Celement:labels.text.fill%7Ccolor:0x757575&style=feature:poi.park%7Celement:geometry%7Ccolor:0x181818&style=feature:poi.park%7Celement:labels.text.fill%7Ccolor:0x616161&style=feature:poi.park%7Celement:labels.text.stroke%7Ccolor:0x1b1b1b&style=feature:road%7Celement:geometry.fill%7Ccolor:0x2c2c2c&style=feature:road%7Celement:labels.text.fill%7Ccolor:0x8a8a8a&style=feature:road.arterial%7Celement:geometry%7Ccolor:0x373737&style=feature:road.highway%7Celement:geometry%7Ccolor:0x3c3c3c&style=feature:road.highway.controlled_access%7Celement:geometry%7Ccolor:0x4e4e4e&style=feature:road.local%7Celement:labels.text.fill%7Ccolor:0x616161&style=feature:transit%7Celement:labels.text.fill%7Ccolor:0x757575&style=feature:water%7Celement:geometry%7Ccolor:0x000000&style=feature:water%7Celement:labels.text.fill%7Ccolor:0x3d3d3d&size=480x360"></img>
-			</div>
-			<footer id="footer">
-				<div class="container">
-					<div class="row">						<div class="col-xs-12 col-md-3">
-							<p>Copyright 2016 &copy; Layout.02</p>
-						</div>
-						<div class="col-xs-12 col-md-2 col-md-offset-2">
-							<ul class="social">								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>								<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>							</ul>
-						</div>
-						<div class="col-xs-12 col-md-3 col-md-offset-2">
-							<nav class="footer-nav">								<ul>									<li><a href="#">Privacy Policy</a></li>									<li><a href="#">Terms &amp; Conditions</a></li>								</ul>							</nav>
-						</div>					</div>
-				</div>
-			</footer>
-		</div>
-		<a href="#wrapper" class="btn-top"><i class="fa fa-chevron-up"></i></a>
-	</div>
-</body>
-</html>
